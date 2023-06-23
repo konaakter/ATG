@@ -1,0 +1,7 @@
+.bgimg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.550)), url('../../../img/baanar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 450px;
+     
+  }
