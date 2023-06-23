@@ -32,9 +32,9 @@ const Caard = () => {
             <div className=' row'>
 
 
-                <div className=' col-sm-8'>
+                <div className=' col-sm-8 md:col-sm-'>
                     <div className='   border border-light-subtle rounded  mb-4'>
-                        <img style={{ width: '734px' }} src={card} alt="" />
+                        <img className=' w-100' src={card} alt="" />
 
                         <div className=' p-4  mt-3'>
                             <img src={artical} alt="" />
@@ -57,7 +57,7 @@ const Caard = () => {
 
                     </div>
                     <div className='   border border-light-subtle rounded  mb-4'>
-                        <img style={{ width: '734px' }} src={card2} alt="" />
+                        <img className=' w-100' src={card2} alt="" />
 
                         <div className=' p-4  mt-3'>
                             <img src={education} alt="" />
@@ -77,7 +77,7 @@ const Caard = () => {
 
                     </div>
                     <div className='   border border-light-subtle rounded  mb-4'>
-                        <img style={{ width: '734px' }} src={card3} alt="" />
+                        <img className=' w-100' src={card3} alt="" />
 
                         <div className=' p-4  mt-3'>
                             <img src={meet} alt="" />
